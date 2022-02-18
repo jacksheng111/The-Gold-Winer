@@ -95,7 +95,6 @@ public class GameWin extends JFrame {
 
         bg.paintSelf(gImage);
 
-
         for (Object obj : objectList) {
             obj.paintSelf(gImage);
         }
